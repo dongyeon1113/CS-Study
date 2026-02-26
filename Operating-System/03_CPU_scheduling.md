@@ -64,3 +64,9 @@
 ## 4. 실시간 스케줄링 (Real-time Scheduling)
 - **Hard Real-time**: 정해진 데드라인 내에 반드시 완료를 보장해야 함.
 - **Soft Real-time**: 일반 프로세스보다 높은 우선순위를 가지지만, 데드라인 엄수를 100% 보장하지는 않음.
+
+---
+
+## 5. 스레드 스케줄링 (Thread Scheduling)
+- **Local Scheduling**: User level thread의 경우 사용자 수준의 thread library에 의해 어떤 thread를 스케줄할지 결정
+- **Global Scheduling**: Kernel level thread의 경우 일반 프로세스와 마찬 가지로 커널의 단기 스케줄러가 어떤 thread를 스케줄할지 결정
