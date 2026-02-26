@@ -50,6 +50,7 @@
 - **연산 종류**:
     - **P(S)**: 세마포어 값을 감소시킴 (자원을 획득하는 과정, S가 0 이하이면 대기).
     - **V(S)**: 세마포어 값을 증가시킴 (자원을 반납하는 과정).
+- **type**: Counting semaphore(도메인이 0이상인 임의의 정수값 자원의 개수를 세야할때), Binary semaphore(0또는 1값만 가질 수 있는 semaphore 주로 mutual exclusion(lock/unlock)에 사용)
 
 ### 7. Block & Wakeup 방식 (Sleep lock)
 - Busy Waiting의 단점을 해결하기 위해, 자원을 얻지 못한 프로세스를 Ready Queue가 아닌 **Semaphore Queue(Wait Queue)**에 넣고 잠들게 함.
