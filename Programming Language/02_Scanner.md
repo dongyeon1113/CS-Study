@@ -2,7 +2,7 @@
 
 
 ## 1. Scanner의 역할 (Front End의 시작)
-Scanner(Lexical Analyzer)는 소스 코드의 **캐릭터 스트림(Character Stream)**을 의미 있는 단위인 **토큰(Token)**으로 묶어주는 역할을 합니다.
+Scanner(Lexical Analyzer)는 소스 코드의 **캐릭터 스트림(Character Stream)** 을 의미 있는 단위인 **토큰(Token)** 으로 묶어주는 역할을 합니다.
 
 * **입력**: 소스 코드 (문자 하나하나)
 * **출력**: 토큰 리스트 (단어 + 품사 정보)
